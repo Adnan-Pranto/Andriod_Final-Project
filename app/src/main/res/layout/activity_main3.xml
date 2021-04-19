@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    android:background="@color/back_last"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:layout_marginTop="5pt"
+        android:background="@color/Lasr_120"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Ticket No:05"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Price : 550 BDT"/>
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="4"
+       android:layout_marginTop="12dp">
+
+       <TextView
+           android:layout_width="0dp"
+           android:layout_weight="1.3"
+           android:layout_height="wrap_content"
+           android:textColor="@color/black"
+           android:background="@color/last_Page"
+           android:text="Name :"
+           android:textSize="9pt"
+           android:textStyle="bold"
+           android:gravity="center"/>
+
+       <EditText
+           android:layout_width="0dp"
+           android:layout_weight="2.6"
+           android:layout_height="wrap_content"
+           android:inputType="text"
+           android:gravity="center"
+           android:layout_marginLeft="7pt"
+           android:background="@color/white"
+           android:textSize="10pt"/>
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/last_Page"
+            android:text="Phone No :"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2.6"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:gravity="center"
+            android:layout_marginLeft="7pt"
+            android:background="@color/white"
+            android:textSize="10pt"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.3"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/last_Page"
+            android:text="AC/Non AC:"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2.6"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:gravity="center"
+            android:layout_marginLeft="7pt"
+            android:background="@color/white"
+            android:textSize="10pt"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".9"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/last_Page"
+            android:text="From:"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.6"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:gravity="center"
+            android:layout_marginLeft="2pt"
+            android:background="@color/white"
+            android:textSize="10pt"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".8"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/last_Page"
+            android:layout_marginLeft="2pt"
+            android:text="To:"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.6"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:gravity="center"
+            android:layout_marginLeft="2pt"
+            android:background="@color/white"
+            android:textSize="10pt"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".9"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/last_Page"
+            android:text="Date:"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.6"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:gravity="center"
+            android:layout_marginLeft="2pt"
+            android:background="@color/white"
+            android:textSize="9pt"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/last_Page"
+            android:layout_marginLeft="2pt"
+            android:text="Time:"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.4"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:gravity="center"
+            android:layout_marginLeft="2pt"
+            android:background="@color/white"
+            android:textSize="10pt"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/last_Page"
+            android:text="Seat No :"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.9"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:gravity="center"
+            android:layout_marginLeft="7pt"
+            android:background="@color/white"
+            android:textSize="10pt"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/last_Page"
+            android:text="Total Amount:"
+            android:textSize="9pt"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_marginLeft="2pt"
+            android:background="@color/white"
+            android:textSize="9pt"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight=".9"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/last_Page"
+            android:layout_marginLeft="2pt"
+            android:text="BDT"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="15pt">
+
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:onClick="home"
+            android:padding="11dp"
+            android:text="home"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginLeft="40dp"
+            android:padding="11dp"
+            android:text="submit"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
